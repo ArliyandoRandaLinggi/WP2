@@ -15,6 +15,7 @@ class Web extends BaseController
     }
     public function about()
     {
+
         $data['judul'] = "Halaman About";
 
         echo view('v_header', $data);
